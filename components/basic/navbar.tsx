@@ -170,7 +170,7 @@ export const Navbar = () => {
             <li className="hidden lg:block">
               <div className="flex flex-col">{searchInput}</div>
             </li>
-            <li className="hidden sm:block">{apiConfig.isShowStarButton && starButton}</li>
+            
           </ul>
         </nav>
       </NavbarContent>
