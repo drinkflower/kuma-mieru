@@ -30,7 +30,7 @@ export function Footer({ config }: FooterProps) {
               </Link>
               <span>&</span>
               <Link
-                href="https://github.com/alice39s/kuma-mieru"
+                href="https://drinkflower.asia"
                 isExternal
                 className="text-primary text-xs"
               >
@@ -39,7 +39,7 @@ export function Footer({ config }: FooterProps) {
             </>
           ) : (
             <>
-              <span>Uptime Kuma</span>
+              <span>drinkflower</span>
               <span>&</span>
               <span>Kuma Mieru v{packageJson.version}</span>
             </>
