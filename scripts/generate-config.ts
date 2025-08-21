@@ -8,8 +8,8 @@ import { sanitizeJsonString } from '../utils/json-sanitizer';
 import 'dotenv/config';
 
 const siteMetaSchema = z.object({
-  title: z.string().default('Kuma Mieru'),
-  description: z.string().default('A beautiful and modern uptime monitoring dashboard'),
+  title: z.string().default('服务监控'),
+  description: z.string().default('drinkflower网站服务监控'),
   icon: z.string().default('/icon.svg'),
 });
 
