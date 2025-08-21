@@ -17,10 +17,10 @@ import { Toaster } from 'sonner';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Kuma Mieru',
+    default: '服务监控',
     template: siteConfig.name ? `%s - ${siteConfig.name}` : '%s - Kuma Mieru',
   },
-  description: siteConfig.description || 'Kuma Mieru',
+  description: siteConfig.description || 'drinkflower网站服务监控',
   icons: {
     icon: siteConfig.icon,
   },
